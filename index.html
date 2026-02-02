@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Radha Jagadeesan</title>
+    <style>
+        :root {
+            --text-primary: #1a1a2e;
+            --text-secondary: #4a4a68;
+            --accent: #2c5282;
+            --accent-light: #3182ce;
+            --bg: #fafafa;
+            --card-bg: #ffffff;
+            --border: #e2e8f0;
+        }
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, Georgia, serif;
+            line-height: 1.7;
+            color: var(--text-primary);
+            background: var(--bg);
+        }
+        
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 3rem 2rem;
+        }
+        
+        header {
+            margin-bottom: 3rem;
+            padding-bottom: 2rem;
+            border-bottom: 1px solid var(--border);
+        }
+        
+        h1 {
+            font-size: 2.2rem;
+            font-weight: 600;
+            color: var(--text-primary);
+            margin-bottom: 1rem;
+            letter-spacing: -0.02em;
+        }
+        
+        .affiliation {
+            color: var(--text-secondary);
+            font-size: 1.05rem;
+            margin-bottom: 0.5rem;
+        }
+        
+        .contact {
+            color: var(--text-secondary);
+            font-size: 0.95rem;
+        }
+        
+        .contact a {
+            color: var(--accent);
+            text-decoration: none;
+        }
+        
+        .contact a:hover {
+            text-decoration: underline;
+        }
+        
+        section {
+            margin-bottom: 2.5rem;
+        }
+        
+        h2 {
+            font-size: 1.3rem;
+            font-weight: 600;
+            color: var(--accent);
+            margin-bottom: 1rem;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+        }
+        
+        p {
+            color: var(--text-secondary);
+            font-size: 1.05rem;
+        }
+        
+        .links {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1.5rem;
+            margin-top: 0.5rem;
+        }
+        
+        .links a {
+            color: var(--accent);
+            text-decoration: none;
+            font-size: 1rem;
+            padding: 0.4rem 0;
+            border-bottom: 1px solid transparent;
+            transition: border-color 0.2s;
+        }
+        
+        .links a:hover {
+            border-bottom-color: var(--accent);
+        }
+        
+        .award {
+            background: var(--card-bg);
+            border: 1px solid var(--border);
+            border-left: 3px solid var(--accent);
+            padding: 1rem 1.25rem;
+            margin-top: 1rem;
+            border-radius: 0 4px 4px 0;
+        }
+        
+        .award a {
+            color: var(--accent);
+            text-decoration: none;
+        }
+        
+        .award a:hover {
+            text-decoration: underline;
+        }
+        
+        .personal-note {
+            font-size: 0.9rem;
+            color: var(--text-secondary);
+            margin-top: 1rem;
+            padding-top: 1.5rem;
+            border-top: 1px solid var(--border);
+        }
+        
+        .personal-note a {
+            color: var(--accent-light);
+            text-decoration: none;
+        }
+        
+        .personal-note a:hover {
+            text-decoration: underline;
+        }
+
+        @media (max-width: 600px) {
+            .container {
+                padding: 2rem 1.25rem;
+            }
+            
+            h1 {
+                font-size: 1.75rem;
+            }
+            
+            .links {
+                flex-direction: column;
+                gap: 0.75rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Radha Jagadeesan</h1>
+            <p class="affiliation">School of Computing, DePaul University</p>
+            <p class="affiliation">243 S. Wabash Avenue, Chicago, Illinois 60604</p>
+            <p class="contact">
+                <a href="mailto:rjagadeesan@cs.depaul.edu">rjagadeesan@cs.depaul.edu</a> · 
+                312-362-5588
+            </p>
+        </header>
+
+        <section>
+            <h2>Research Interests</h2>
+            <p>Programming languages and systems, logic and semantics.</p>
+        </section>
+
+        <section>
+            <h2>Publications</h2>
+            <p>My publications can be accessed at:</p>
+            <div class="links">
+                <a href="http://www.informatik.uni-trier.de/~ley/db/indices/a-tree/j/Jagadeesan:Radha.html">DBLP</a>
+                <a href="http://dl.acm.org/author_page.cfm?id=81100214384">ACM Digital Library</a>
+                <a href="https://www.semanticscholar.org/search?q=Radha%20Jagadeesan&sort=relevance">Semantic Scholar</a>
+            </div>
+        </section>
+
+        <section>
+            <h2>Awards &amp; Grants</h2>
+            <div class="award">
+                <a href="http://siglog.org/winners-of-the-2017-alonzo-church-award/">2017 Alonzo Church Award</a>
+            </div>
+            <div class="award">
+                <a href="https://www.nsf.gov/awardsearch/search-results?ActiveAwards=false&AppCode=&AwardAmount=&AwardInstrument=&AwardNumberFrom=&AwardNumberOperator=&AwardNumberTo=&AwardTitleOnly=&BooleanElement=All&BooleanRef=All&ExpDateOperator=&ExpirationDateFrom=&ExpirationDateTo=&ExpiredAwards=true&FundCode=&IncludeCoPI=true&Keyword=&OriginalAwardDateFrom=&OriginalAwardDateOperator=&OriginalAwardDateTo=&PICountry=&PIFirstName=RADHAKRISHNAN&PIId=&PILastName=JAGADEESAN&PIOrganization=&PIState=&PIZip=&ProgEleCode=&ProgOfficer=&ProgOrganization=&ProgRefCode=&Program=&StartDateFrom=&StartDateOperator=&StartDateTo=&queryText=&refined=&sortBy=date">NSF Awards</a>
+            </div>
+        </section>
+
+        <section>
+            <p class="personal-note">
+                Looking for someone else? 
+                <a href="https://www.linkedin.com/in/lalitajagadeesan/">Lalita Jagadeesan</a> · 
+                <a href="https://mjagadeesan.github.io/">Meena Jagadeesan</a> · 
+                <a href="https://sites.google.com/site/ravijagadeesan/">Ravi Jagadeesan</a>
+            </p>
+        </section>
+    </div>
+</body>
+</html>
